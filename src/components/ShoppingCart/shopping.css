@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.shop-items,
+.cart-items {
+  padding: 0.2rem 0rem;
+}
+
+.shop-button,
+.cart-button {
+  margin: 0.2rem 0.4rem;
+}

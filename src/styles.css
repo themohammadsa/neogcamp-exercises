@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500&display=swap");
+
+.App {
+  font-family: "Hind", sans-serif;
+  text-align: center;
+}
+
+#password-img {
+  padding: 0rem 1rem;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+.box {
+  background-color: rgba(255, 255, 255, 1);
+  margin: 2rem auto;
+  max-width: 30rem;
+  padding: 0rem 0rem;
+  border-radius: 10px;
+  box-shadow: rgba(67, 103, 139, 0.2) 0px 8px 24px;
+  padding-bottom: 0.1px;
+}
+
+h1 {
+  background-color: #3b70ff;
+  color: white;
+  margin: 4rem 0rem 3rem 0rem;
+  padding: 1rem 0.5rem;
+  max-width: 30rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: rgba(59, 112, 255, 0.12) 0px 3px 3px,
+    rgba(59, 112, 255, 0.24) 0px 1px 5px;
+}
+
+.ctr {
+  background-color: #3b70ff;
+  color: white;
+  padding: 0.4rem 1.2rem;
+  text-align: center;
+  border: #3b70ff 1px solid;
+  font-family: "Hind", sans-serif;
+  margin: 1rem 1rem 4rem 1rem;
+  border-radius: 4px;
+  box-shadow: rgba(59, 112, 255, 0.35) 0px 2px 8px 0px;
+  cursor: pointer;
+}
+.input-box {
+  color: blue;
+  border-radius: 7px;
+  width: 35%;
+  height: 2rem;
+  text-align: center;
+  margin: 1rem;
+  border: #3b70ff 1px solid;
+  font-family: "Hind", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.padding {
+  margin: 0.5rem 2rem;
+}
+
+.like-list-text {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.drop {
+  width: 11rem;
+  margin: auto;
+  background-color: #3b70ff;
+  color: white;
+  padding: 0.3rem 0rem;
+  text-align: center;
+  border: #3b70ff 1px solid;
+  font-family: "Hind", sans-serif;
+  border-radius: 4px 4px 0px 0px;
+  box-shadow: rgba(59, 112, 255, 0.35) 0px 2px 8px 0px;
+  cursor: pointer;
+}
+.drop-down {
+  display: none;
+  width: 11rem;
+  margin: auto;
+  background-color: white;
+  color: #3b70ff;
+  border: #3b70ff 0px solid;
+  font-family: "Hind", sans-serif;
+  border-radius: 0px 0px 4px 4px;
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+
+  cursor: pointer;
+}
+.nav-bar {
+  position: relative;
+  display: inline-block;
+  margin: 2rem 0rem;
+}
+.drop-down-items {
+  padding: 0.4rem 0rem;
+}
+.nav-bar:hover .drop-down {
+  display: block;
+}
+
+.drop-down-items:hover {
+  background-color: #3b70ff;
+  color: white;
+  box-shadow: rgba(59, 112, 255, 0.35) 0px 2px 8px 0px;
+}
