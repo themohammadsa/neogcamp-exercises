@@ -5,7 +5,7 @@ This repository contains all the week-one exercises of neogcamp.
 
 ---
 
-# DEMO 
+## DEMO 
 
 <p align="center" width="100%">
     <img width="50%" src="demo.gif"> 
@@ -23,7 +23,7 @@ https://ktcv3.csb.app/
 
 ---
 
-# Built with:
+## Built with:
 
 1. React JS 
 2. CSS
