@@ -1,8 +1,8 @@
 # neogcamp-week-one-exercises
 
-# Getting Started
 
 This repository contains all the week-one exercises of neogcamp.
+
 ---
 
 # DEMO 
